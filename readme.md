@@ -1,5 +1,5 @@
 <a href="https://apple-wwdc23.vercel.app">
-  <img alt="TODO" src="/public/social.jpg">
+  <img alt="TODO" src="/public/social.png">
 </a>
 
 <h1 align="center">Apple WWDC23</h1>

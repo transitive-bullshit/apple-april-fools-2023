@@ -12,6 +12,7 @@ export const domain = 'apple-april-fools-2023.vercel.app'
 export const author = 'Travis Fischer'
 export const twitter = 'transitive_bs'
 export const twitterUrl = `https://twitter.com/${twitter}`
+export const discordUrl = `https://www.chatgpthackers.dev`
 export const githubRepoUrl =
   'https://github.com/transitive-bullshit/apple-april-fools-2023'
 export const githubSponsorsUrl =

@@ -7,13 +7,11 @@ import { HeroButton } from '@/components/HeroButton/HeroButton'
 import { Layout } from '@/components/Layout/Layout'
 import { PageHead } from '@/components/PageHead/PageHead'
 import HeroImage from '@/public/hero.jpg'
+import FooterImage from '@/public/images/apple-hq.jpg'
 import ProductImage0 from '@/public/images/apple-isense-product-0.jpg'
 import ProductImage1 from '@/public/images/apple-isense-product-1.jpg'
 
 import styles from './index.module.css'
-
-const waitlistUrl =
-  'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
 
 export default function HomePage() {
   return (
@@ -40,107 +38,126 @@ export default function HomePage() {
               </div>
 
               <div className={styles.letter}>
+                <p>Dear Apple Family,</p>
+
                 <p>
-                  Today, we are proud to announce the dawn of a new era in
-                  computing, brought to you exclusively by Apple Inc. With the
-                  unparalleled ingenuity of our beloved late founder, Steve
-                  Jobs, echoing through the corridors of our headquarters, we
-                  have created a revolutionary AI-driven technology that will
-                  leave our competitors, OpenAI's ChatGPT and Google Bard,
-                  trembling in fear.
+                  We are proud to unveil two ground-breaking products that will
+                  completely redefine the way you interact with technology,
+                  paving the way for a future so immersive, you&apos;ll barely
+                  remember the past.
                 </p>
+
                 <p>
-                  Introducing the Apple <b>iThink</b>™ Neural Engine and the
-                  groundbreaking <b>iSight</b>™ Augmented Reality Contact
-                  Lenses, we bring you the ultimate in AI and augmented reality.
-                  This is the future, and you should be grateful that we're
-                  sharing it with you.
+                  Introducing iThink™ the world’s most advanced AI. A large
+                  language model (LLM) that leaves previously cutting-edge AIs
+                  like ChatGPT and Google Bard in the dust like forgotten toys.
+                  Powered by Apple&apos;s M2 chip and enhanced neural engine,
+                  iThink harnesses the power to challenge the very limits of
+                  human thought. This is the future, and you should be grateful
+                  that we&apos;re sharing it with you.
                 </p>
+
                 <p>
-                  Our top-secret, highly advanced iThink™ Neural Engine is the
-                  pinnacle of human achievement, running on-device to provide
-                  you with an AI language model experience that is not only
-                  eerily intelligent but also eerily omnipotent. We've crafted
-                  this remarkable technology to ensure that every interaction
-                  with iThink™ feels like having a small, slightly intrusive
-                  piece of Steve Jobs whispering in your ear.
+                  But, why stop there? It&apos;s time to merge your world with
+                  the digital realm. Introducing iSight™, our revolutionary
+                  augmented reality (AR) contact lenses. Immerse yourself in the
+                  extraordinary with dual 4K displays and advanced body
+                  tracking, all in a compact form factor that fits seamlessly
+                  into your eyes.
                 </p>
+
+                <div className={styles.product}>
+                  <a
+                    href={config.discordUrl}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <Image
+                      className={cs(styles.productImage)}
+                      src={ProductImage0.src}
+                      alt='Apple iSense powered by Apple iThink'
+                      width={ProductImage0.width}
+                      height={ProductImage0.height}
+                      placeholder='blur'
+                      blurDataURL={ProductImage0.blurDataURL}
+                    />
+                  </a>
+
+                  <a
+                    href={config.discordUrl}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <Image
+                      className={cs(styles.productImage)}
+                      src={ProductImage1.src}
+                      alt='Apple iSense powered by Apple iThink'
+                      width={ProductImage1.width}
+                      height={ProductImage1.height}
+                      placeholder='blur'
+                      blurDataURL={ProductImage1.blurDataURL}
+                    />
+                  </a>
+                </div>
+
                 <p>
-                  Now, prepare to have your feeble minds blown away by the sheer
-                  brilliance of our iSight™ Augmented Reality Contact Lenses.
-                  These inconspicuous, cutting-edge lenses are powered by the
-                  iThink™ Neural Engine and effortlessly blend your digital life
-                  with the real world, whether you want it to or not. Gone are
-                  the days of cumbersome headsets and limited experiences; now,
-                  you'll be connected 24/7, with no way to escape the constant
-                  stream of information.
+                  Why bother with the real world when iSight, powered by
+                  iThink&apos;s neural engine, lets you escape to infinite
+                  possibilities? Let us take control of your perceptions,
+                  crafting an existence tailored to your every desire.
                 </p>
+
                 <p>
-                  Privacy, you ask? We've redefined it! We know everything there
-                  is to know about you, but rest assured, only we know. We've
-                  got your best interests at heart, just like Big Brother. After
-                  all, we're Apple, and we know what's best for you.
+                  Privacy, you ask? We&apos;ve redefined it! We know everything
+                  there is to know about you, but rest assured, only we know.
+                  We&apos;ve got your best interests at heart, just like Big
+                  Brother. After all, we&apos;re Apple, and we know what&apos;s
+                  best for you.
                 </p>
+
+                <p>
+                  You&apos;ve trusted us with your music, your photos, and your
+                  memories. Now, trust us with your reality.
+                </p>
+
                 <p>
                   Embrace the brave new world that Apple has so graciously
-                  bestowed upon you. Soon, you'll wonder how you ever survived
-                  without the iThink™ Neural Engine and iSight™ Augmented
-                  Reality Contact Lenses guiding your every move. Resistance is
-                  futile. Welcome to the future.
+                  bestowed upon you. Soon, you&apos;ll wonder how you ever
+                  survived without the iThink™ Neural Engine and iSight™
+                  Augmented Reality Contact Lenses guiding your every move.
+                  Resistance is futile. Welcome to the future.
                 </p>
-
-                <h3>Pricing and Availability</h3>
 
                 <p>
-                  As with all of our innovative creations, the iThink™ Neural
-                  Engine and iSight™ Augmented Reality Contact Lenses will be
-                  priced just within reach of the average consumer, ensuring
-                  that we maintain our benevolent image while maximizing
-                  profits.
+                  Welcome to the new age, where the line between the virtual and
+                  the real is a mere blink away. Are you ready to embrace the
+                  future?
                 </p>
-                <p>
-                  For more information about the Apple iThink™ Neural Engine and
-                  iSight™ Augmented Reality Contact Lenses, visit
-                  apple.com/ithink and apple.com/isight.
-                </p>
-                <p>
-                  Apple revolutionized personal technology with the introduction
-                  of the Macintosh in 1984, and we have been shaping the course
-                  of human destiny ever since. Our mission is to create the most
-                  perfect, elegant, and indispensable products possible, so you
-                  have no choice but to submit to our technological mastery.
-                </p>
-              </div>
 
-              <div className={styles.product}>
-                <Image
-                  className={cs(styles.productImage)}
-                  src={ProductImage0.src}
-                  alt='Apple iSense powered by Apple iThink'
-                  width={ProductImage0.width}
-                  height={ProductImage0.height}
-                  placeholder='blur'
-                  blurDataURL={ProductImage0.blurDataURL}
-                />
-
-                <Image
-                  className={cs(styles.productImage)}
-                  src={ProductImage1.src}
-                  alt='Apple iSense powered by Apple iThink'
-                  width={ProductImage1.width}
-                  height={ProductImage1.height}
-                  placeholder='blur'
-                  blurDataURL={ProductImage1.blurDataURL}
-                />
+                <p>
+                  Sincerely,
+                  <br />
+                  Apple
+                </p>
               </div>
 
               <HeroButton
-                href={waitlistUrl}
+                href={config.discordUrl}
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Join the Waitlist
+                Sign up for Apple AI
               </HeroButton>
+
+              <Image
+                className={cs(styles.footerImage)}
+                src={FooterImage.src}
+                alt='Apple AI HQ'
+                width={FooterImage.width}
+                height={FooterImage.height}
+                placeholder='blur'
+                blurDataURL={FooterImage.blurDataURL}
+              />
             </div>
           </div>
         </div>

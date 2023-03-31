@@ -46,7 +46,8 @@
   position: relative;
 }
 
-.heroImage {
+.heroImage,
+.footerImage {
   width: 980px;
   max-width: 100%;
 }
@@ -68,16 +69,21 @@
 }
 
 .letter {
-  max-width: 653px;
-}
-
-.letter h3 {
-  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
 }
 
 .letter p,
 .letter h3 {
+  width: 100%;
+  max-width: 653px;
   margin-bottom: 1em;
+}
+
+.letter h3 {
+  font-size: 1.5rem;
 }
 
 .letter b {
@@ -89,9 +95,29 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: var(--gap);
+  gap: var(--gap-2);
 }
 
 .productImage {
   max-width: 360px;
+  border-radius: 16px;
+}
+
+.ctaButton {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 33%;
+  width: 100%;
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 720px) {
+  .product {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }

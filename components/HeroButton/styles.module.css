@@ -101,6 +101,10 @@
   color: var(--bg-color);
 }
 
+:global(.dark) .heroButton:hover {
+  color: var(--fg-color);
+}
+
 .heroButton:focus:not(:active):not(:hover) {
   border-color: var(--fg-color);
 }
@@ -152,15 +156,5 @@
   66.667%,
   83.333% {
     opacity: 1;
-  }
-} */
-
-/* @keyframes pulse {
-  from {
-    filter: blur(8px);
-  }
-
-  to {
-    filter: blur(32px);
   }
 } */

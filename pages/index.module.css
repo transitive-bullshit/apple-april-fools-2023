@@ -38,12 +38,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 800px;
   gap: calc(max(48px, var(--gap-2)));
   flex: 1;
 }
 
+.heroImageWrapper {
+  position: relative;
+}
+
+.heroImage {
+  width: 980px;
+  max-width: 100%;
+}
+
 .title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
   font-size: 2.5rem;
 }
 
@@ -51,4 +65,33 @@
   font-style: italic;
   text-align: center;
   line-height: 1.6;
+}
+
+.letter {
+  max-width: 653px;
+}
+
+.letter h3 {
+  font-size: 1.5rem;
+}
+
+.letter p,
+.letter h3 {
+  margin-bottom: 1em;
+}
+
+.letter b {
+  font-weight: bold;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.productImage {
+  max-width: 360px;
 }

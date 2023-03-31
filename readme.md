@@ -1,4 +1,4 @@
-<a href="https://apple-wwdc23.vercel.app">
+<a href="https://apple-ai.vercel.app">
   <img alt="TODO" src="/public/social.png">
 </a>
 

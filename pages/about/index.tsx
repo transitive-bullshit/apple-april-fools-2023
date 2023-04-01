@@ -13,7 +13,7 @@ const markdownContent = `
 
 This website is an April Fool's Day joke in anticipation of Apple's [rumored AR headset](https://www.macrumors.com/roundup/wwdc/) and their upcoming [2023 WWDC](https://developer.apple.com/wwdc23/) developer event.
 
-I also wanted to poke fun at how far behind Apple seems to have fallen in the AI arms race, with [ChatGPT](https://chat.openai.com/) recently becoming the [fastest growing consumer app in history](https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/), and [OpenAI](https://openai.com/) continuing to make massive strides with the [release of GPT-4](https://openai.com/product/gpt-4) and [ChatGPT Plugins](https://openai.com/blog/chatgpt-plugins).
+I also wanted to poke fun at how far behind Apple ([and Google](https://google-waitlist.vercel.app/)) seem to have fallen in the AI arms race, with [ChatGPT](https://chat.openai.com/) recently becoming the [fastest growing consumer app in history](https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/), and [OpenAI](https://openai.com/) continuing to make massive strides with the [release of GPT-4](https://openai.com/product/gpt-4) and [ChatGPT Plugins](https://openai.com/blog/chatgpt-plugins).
 
 Will Apple be able to catch up? Why did I create this silly site? Read on for more details. 👇
 

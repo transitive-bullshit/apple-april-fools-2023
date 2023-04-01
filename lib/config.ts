@@ -8,7 +8,7 @@ export const title = 'Apple AI'
 export const titleLong = 'Introducing Apple AI'
 export const description =
   "Apple AI is proud to announce Apple iThink and Apple iSight. iThink is the world's most powerful AI LLM, and iSight is a revolutionary new set of augmented reality (AR) contact lenses that will redefine how you see the world. Happy April Fool's Day 2023! 😂"
-export const domain = 'apple-april-fools-2023.vercel.app'
+export const domain = 'apple-ai.vercel.app'
 
 export const author = 'Travis Fischer'
 export const twitter = 'transitive_bs'

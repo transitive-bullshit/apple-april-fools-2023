@@ -2,10 +2,10 @@
   <img alt="TODO" src="/public/social.png">
 </a>
 
-<h1 align="center">Apple WWDC23</h1>
+<h1 align="center">Apple AI introduces iThink and iSight</h1>
 
 <p align="center">
-  TODO
+  Fake Apple AI product launch for April Fool's Day 2023. Built with GPT-4, Midjourney, Copilot, and old-fashioned code.
 </p>
 
 <p align="center">
@@ -25,6 +25,6 @@ Lol
 
 MIT © [Travis Fischer](https://transitivebullsh.it)
 
-NOTE: this project is not affiliated with Apple in any way.
+**This website is not affiliated with Apple Inc in any way**. It is an open source April Fool's Day joke that is intended to showcase how quickly the world is evolving in the era of AI.
 
 If you found this project interesting, please consider [sponsoring me](https://github.com/sponsors/transitive-bullshit) or <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>

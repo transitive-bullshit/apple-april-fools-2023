@@ -166,13 +166,7 @@ export default function HomePage() {
               <p>
                 Welcome to the dawn of a new age, where the line between virtual
                 and reality flips in a blink of an eye. Are you ready to
-                literally think different?
-              </p>
-
-              <p>
-                Sincerely,
-                <br />
-                Apple
+                literally <b>think different</b>?
               </p>
             </div>
           </div>

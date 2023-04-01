@@ -5,7 +5,7 @@
 <h1 align="center">Introducing Apple AI</h1>
 
 <p align="center">
-  Apple AI fake product launch for April Fool's Day 2023.
+  Fake Apple AI product launch for April Fool's Day 2023.
 </p>
 
 <p align="center">

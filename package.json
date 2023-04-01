@@ -2,7 +2,7 @@
   "name": "apple-april-fools-2023",
   "version": "0.1.0",
   "private": true,
-  "description": "Fake Apple AI product launch for April Fool's Day 2023. Built with GPT-4, Midjourney, Copilot, and old-fashioned code.",
+  "description": "Fake Apple AI product launch for April Fool's Day 2023.",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "repository": "transitive-bullshit/apple-april-fools-2023",
   "homepage": "https://apple-ai.vercel.app",

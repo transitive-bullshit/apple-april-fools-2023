@@ -5,7 +5,7 @@
 <h1 align="center">Introducing Apple AI</h1>
 
 <p align="center">
-  Apple AI product launch for April Fool's Day 2023.
+  Apple AI fake product launch for April Fool's Day 2023.
 </p>
 
 <p align="center">
@@ -14,7 +14,10 @@
   <a href="https://prettier.io"><img alt="Prettier Code Formatting" src="https://img.shields.io/badge/code_style-prettier-brightgreen.svg" /></a>
 </p>
 
-- [About](#about)
+- [Intro](#intro)
+- [Tech Stack](#tech-stack)
+  - [GPT-4 Press Release](#gpt-4-press-release)
+  - [Midjourney Product Images](#midjourney-product-images)
 - [License](#license)
 
 ## Intro

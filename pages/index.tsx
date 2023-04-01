@@ -159,13 +159,14 @@ export default function HomePage() {
               <p>
                 Embrace the brave new world that Apple has so graciously
                 bestowed upon you. Soon, you&apos;ll wonder how you ever
-                survived without the iThink AI and iSight augmented reality
-                contact lenses guiding your every move.
+                survived without the iThink AI and iSight AR lenses guiding your
+                every decision.
               </p>
 
               <p>
-                Welcome to the a age, where the line between virtual and reality
-                is a blink of an eye. Are you ready to embrace the future?
+                Welcome to the dawn of a new age, where the line between virtual
+                and reality flips in a blink of an eye. Are you ready to
+                literally think different?
               </p>
 
               <p>

@@ -116,10 +116,10 @@ export default function HomePage() {
               <p>Dear Apple Family,</p>
 
               <p>
-                We are proud to unveil two ground-breaking new products that
-                will completely redefine the way you interact with technology,
-                paving the way for a future so immersive, you&apos;ll barely
-                remember the past.
+                We are proud to unveil two groundbreaking new products that will
+                completely redefine the way you interact with technology, paving
+                the way for a future so immersive, you&apos;ll barely remember
+                the past.
               </p>
 
               <p>

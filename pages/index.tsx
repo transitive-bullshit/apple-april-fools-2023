@@ -123,7 +123,7 @@ export default function HomePage() {
               </p>
 
               <p>
-                Introducing <b>iThink</b>™ the world’s most advanced AI. iThink
+                Introducing <b>iThink</b>™, the world’s most advanced AI. iThink
                 is a large language model (LLM) that leaves previous AIs like
                 ChatGPT in the dust like forgotten toys. Powered by our M2
                 chip's next-gen neural engine, iThink harnesses the power to

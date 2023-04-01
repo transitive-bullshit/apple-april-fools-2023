@@ -76,11 +76,11 @@ AI-powered search experiences like [Microsoft Bing](https://www.bing.com/new), [
 
 I doubt that Apple will release anything as powerful or dystopian as the fictional iThink model advertised on this site.
 
-But it seems likely that every major tech company will end up competing in this space either directly or indirectly. There's just so much value to capture, with [OpenAI's ChatGPT / GPT-4](https://openai.com/product/gpt-4), [Google Bard](https://bard.google.com/), and [Facebook's LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) being some of the most promising players so far.
+But it seems likely that every major tech company will end up competing in this space either directly or indirectly. There's just so much value to capture. So far, [OpenAI's ChatGPT & GPT-4](https://openai.com/product/gpt-4), [Google Bard](https://bard.google.com/), and [Facebook's LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) are some of the most promising players.
 
 #### With the exponential progress in AI, where will this all lead over the next few years? Over the next decade?
 
-I included a bunch of [Black Mirror](https://www.netflix.com/title/70264888) references on this site for a good reason. There are _a lot_ of ways AI and AR could develop that would end up feeling pretty dystopian. There are also _a lot_ of ways that AI and AR will end up being used as tools to make people more productive and fulfilled. Hopefully. I'm sure the reality will end up being somewhere in-between, and if [AGI](https://search.bensbites.co/?query=AGI) enters the mix, it's incredibly difficult to fathom just how much our world may change.
+I included a bunch of [Black Mirror](https://www.netflix.com/title/70264888) references on this site for good reason. There are _a lot_ of ways AI and AR could develop that would end up feeling pretty dystopian. There are also _a lot_ of ways that AI and AR will end up being used as tools to make people more productive and fulfilled. Hopefully. I'm sure the reality will end up being somewhere in-between, and if [AGI](https://search.bensbites.co/?query=AGI) enters the mix, it's incredibly difficult to fathom just how much our world may change.
 
 #### Ultimately, only time will tell.
 

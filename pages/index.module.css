@@ -27,7 +27,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: var(--gap);
+  gap: calc(max(var(--gap-2), 24px));
 }
 
 .heroImageWrapper {
@@ -118,7 +118,24 @@
 }
 
 @media only screen and (max-width: 720px) {
+  .body {
+    gap: calc(var(--gap) * 6);
+  }
+
+  .body h1 {
+    font-size: 2rem;
+  }
+
+  .title {
+    position: relative;
+    margin-top: 0.5em;
+    top: 0;
+    bottom: unset;
+    /* bottom: -1em; */
+  }
+
   .product {
+    grid-gap: calc(max(var(--gap-2), 36px));
     grid-template-columns: 1fr;
   }
 }

@@ -5,7 +5,7 @@
 <h1 align="center">Apple AI introduces iThink and iSight</h1>
 
 <p align="center">
-  Fake Apple AI product launch for April Fool's Day 2023. Built with GPT-4, Midjourney, Copilot, and old-fashioned code.
+  Apple AI product launch for April Fool's Day 2023. Built with GPT-4, Midjourney, Copilot, and old-fashioned code.
 </p>
 
 <p align="center">
@@ -14,12 +14,12 @@
   <a href="https://prettier.io"><img alt="Prettier Code Formatting" src="https://img.shields.io/badge/code_style-prettier-brightgreen.svg" /></a>
 </p>
 
-- [Intro](#intro)
+- [About](#about)
 - [License](#license)
 
-## Intro
+## About
 
-Lol
+See the [live website](https://apple-ai.vercel.app) and [about page](https://apple-ai.vercel.app/about) for more info.
 
 ## License
 

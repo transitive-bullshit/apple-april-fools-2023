@@ -1,8 +1,8 @@
 import * as React from 'react'
 import cs from 'clsx'
-import Link from 'next/link'
 
 import * as config from '@/lib/config'
+import { ActiveLink } from '@/components/ActiveLink/ActiveLink'
 import { GitHub, Twitter } from '@/icons/index'
 
 import { Logo } from './Logo'
@@ -12,19 +12,18 @@ export const Header: React.FC<{ className?: string }> = ({ className }) => {
   return (
     <header className={cs(styles.header, className)}>
       <div className={styles.navHeader}>
-        <Link href='/' className={styles.action} aria-label='Logo'>
+        <ActiveLink href='/' className={styles.action} aria-label='Logo'>
           <Logo />
-        </Link>
+        </ActiveLink>
 
         <div className={styles.rhs}>
-          <a
-            href='https://developer.apple.com/wwdc23/'
+          <ActiveLink
+            href='/about'
             className={styles.action}
-            target='_blank'
-            rel='noopener noreferrer'
+            aria-label='About'
           >
-            Official WWDC23
-          </a>
+            About
+          </ActiveLink>
 
           <a
             className={cs(styles.twitter, styles.social)}

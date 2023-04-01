@@ -191,9 +191,21 @@ h4,
 h5,
 h6 {
   font-weight: 600;
+  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica';
+  line-height: 1.33341;
+  font-weight: 400;
+  letter-spacing: 0.009em;
 }
 
-.typography-intro-elevated {
+p {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica';
+}
+
+.apple-header {
   font-size: 24px;
   line-height: 1.33341;
   font-weight: 400;
@@ -202,7 +214,7 @@ h6 {
     'Arial', sans-serif;
 }
 
-.typography-body {
+.apple-text {
   font-size: 17px;
   line-height: 1.47059;
   font-weight: 400;

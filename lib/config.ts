@@ -4,7 +4,7 @@ export const isServer = typeof window === 'undefined'
 export const isSafari =
   !isServer && /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
 
-export const title = 'Apple WWDC23'
+export const title = 'Apple AI'
 export const description =
   'Join the Apple developer community for an all-online Apple Worldwide Developers Conference.'
 export const domain = 'apple-april-fools-2023.vercel.app'

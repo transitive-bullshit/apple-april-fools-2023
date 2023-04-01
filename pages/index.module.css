@@ -18,28 +18,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: var(--gap);
+  gap: calc(var(--gap) * 3);
 }
 
 .section {
   position: relative;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 24px var(--gap-2);
-  min-height: 50vh;
-  border-radius: 24px;
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: calc(max(48px, var(--gap-2)));
-  flex: 1;
+  gap: var(--gap);
 }
 
 .heroImageWrapper {
@@ -57,6 +45,9 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.body h1 {
   width: 100%;
   text-align: center;
   font-size: 2.5rem;
@@ -91,16 +82,27 @@
 }
 
 .product {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: var(--gap-2);
+  display: grid;
+  grid-gap: var(--gap-2);
+  grid-template-columns: 1fr 1fr;
+  max-width: 800px;
 }
 
 .productImage {
   max-width: 360px;
   border-radius: 16px;
+}
+
+.productImageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productImageWrapper p {
+  margin-top: 0.7em;
+  max-width: 90%;
+  font-size: 13px;
 }
 
 .ctaButton {
@@ -117,7 +119,6 @@
 
 @media only screen and (max-width: 720px) {
   .product {
-    flex-direction: column;
-    justify-content: flex-start;
+    grid-template-columns: 1fr;
   }
 }

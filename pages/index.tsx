@@ -116,14 +116,14 @@ export default function HomePage() {
               <p>Dear Apple Family,</p>
 
               <p>
-                We are proud to unveil two ground-breaking products that will
-                completely redefine the way you interact with technology, paving
-                the way for a future so immersive, you&apos;ll barely remember
-                the past.
+                We are proud to unveil two ground-breaking new products that
+                will completely redefine the way you interact with technology,
+                paving the way for a future so immersive, you&apos;ll barely
+                remember the past.
               </p>
 
               <p>
-                Introducing <b>iThink</b>™, the world’s most advanced AI. iThink
+                Introducing <b>iThink</b>™ the world’s most advanced AI. iThink
                 is a large language model (LLM) that leaves previous AIs like
                 ChatGPT in the dust like forgotten toys. Powered by our M2
                 chip's next-gen neural engine, iThink harnesses the power to
